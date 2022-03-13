@@ -1,0 +1,404 @@
+*{padding: 0; margin: 0; font-family: sans-serif;}
+
+/* start covid */
+.covid{width: 100%; height: 50px; display: flex; justify-content: center; 
+      background-color: rgb(248, 247, 247); align-items: center; text-align: center; border-bottom: 10px rgb(7, 7, 7);}
+.covid .col a{font-size: small; color: black;}
+
+/* Start nav */
+.nav{width: 100%; height: 70px;   display: flex; align-items: center; background-color:; margin-bottom:1px;}
+.nav .nav-links .row1,.row2{display: flex; justify-content: space-between;}
+.nav .logo img{width:90px;margin-top: 40px;margin-bottom: 30px}
+.nav .nav-links .row2 .right-side img{width: 15px;}
+.nav .nav-links{width: 87%;}
+.nav .logo{width: 10%; text-align: center;}
+.nav .nav-links a{text-decoration: none; 
+    color: black; margin: 5px; font-size: 14px;}
+
+.nav .nav-links .row1{padding-bottom: 3px; border-bottom: 1px solid lightgray; margin-top: 40px;}
+.nav .nav-links .row2{padding-top: 3px;  margin-top: 10px; margin-bottom: 30px}
+
+/* End Nav */
+
+/* start sign-up */
+.sign-up{width: 100%; height:50px; display: flex; justify-content: center; 
+      align-items: center; background-color: rgb(245, 245, 245);margin-top: 10px;}
+.sign-up .col a{padding: 5px; background-color: maroon; margin-top: 20px; margin-left: 10px; 
+     color: white; text-decoration: none; border-radius: 5px;}
+/* end sign-up */
+
+
+/* start slider */
+.slider{width: 100%; height: 750px; 
+     background-image: url('../img/banner.webp');
+      background-repeat: no-repeat; background-size: cover;
+       background-position:center; }
+.slider .btn a{text-decoration: none; color: white; background-color: maroon; padding: 15px;}
+ 
+.slider .btn{padding-top: 500px; margin-left:135px;border-radius: 10px; }
+ /* End slider */
+
+ /* home-section start */
+.home-section1{width: 100%; display: flex; justify-content: center; 
+      margin-top: 50px; text-align: center;}
+.home-section1 img{width: 170px; padding-top: 10px; padding: 40px;}
+.home-section1 .col{width: 19%; height: 400px; border: 1px solid lightgray; text-align: center;
+     margin: 15px; border-radius: 10px; }
+.home-section1 .col h3{font-size: 15px; padding-top: 30px;}
+.home-section1 .col .p{font-size: 14px; color: gray; ;}
+/* home-section1 end */
+
+/* start slider2*/
+.slider2{width: 100%; height: 350px; 
+     background-image: url('../img/B2B\ Banner-01-01.webp');
+      background-position:center; background-size: cover;
+       background-repeat: no-repeat; justify-content: center; margin-top: 100PX;}
+.slider2 .btn2 a{text-decoration: none; padding: 15px; color: white;
+      background-color: maroon; border-radius: 5px;}
+.slider2 .btn2{text-align: center; padding: 160px;}
+/* end slider2 */
+
+/* start home-section2 */
+.home-section2{width: 80%; display: flex;  margin: auto; justify-content:space-between; 
+  margin-top: 20px;  margin-bottom: 20px;}
+.home-section2 .col{width: 32%;}
+.home-section2 .col img{width: 100%;}
+.home-section2 h2{padding: 20px; font-size: 20px;}
+.home-section2 a{text-decoration: none; margin-left: 20px; font-size:13px}
+/* end home-section2 */
+
+/* start categories-text */
+.categories-text{width: 100%; justify-content: center; text-align: center;}
+.categories-text .col a{padding: 15px; margin-top: 50px;
+      color: gray; text-decoration: none; font-size: small ;
+       border-bottom: 1px solid lightgray;}
+/* end categories-text */
+
+/* start home-section3 */
+.home-section3{width: 100%; display: flex; justify-content: space-evenly; 
+     margin: auto; text-align: center; margin-top: 60px;}
+.home-section3 .col{width: 18%;}
+.home-section3 .col img{width: 100%;}
+.home-section3 p{line-height: 20px; font-size: small;}
+/* end home-section3 */
+
+/* start home-section4 */
+.home-section4{width: 100%; display: flex; justify-content:center;margin: auto; margin-top: 100px;}
+.home-section4 .col1{width: 39%; height: 750px; 
+     background-image: url('../img/africa-home-block-1-t.webp'); background-repeat: no-repeat; 
+     background-position:bottom; background-size: cover;margin-right: 20px;}
+.home-section4 .col1 h2{text-align: center; color: white; padding: 50px; font-size:30px;}
+
+.home-section4 .col2{width:45%; }
+.home-section4 h3{text-align:left; padding: 15px;}
+
+.home-section4 .col2 .up{width: 100%; height: 366px; 
+     background-image: url('../img/africa-home-block-2-d.webp'); background-repeat: no-repeat; 
+     background-position:right;}
+
+.home-section4 .col2 .down{width: 100%; height: 366px; 
+     background-image: url('../img/africa-home-block-3-d.webp'); background-repeat: no-repeat; 
+     background-position:right;margin-top: 20px;}
+/* end home-section4 */
+
+/* start product-icon */
+.product-icon{width: 100%; display: flex; justify-content: center; 
+     align-items: center; text-align: center; margin-top: 100px;}
+.product-icon .col{width: 50%;}
+.product-icon .col img{width: 65px;}
+/* end product-icon */
+
+/* start join-section */
+.join-section{ width: 100%; margin-top: 60px;}
+.join-section .col{text-align: center;align-items: center;}
+.join-section p{margin-top: 50px; color: gray;}
+/* end join-section */
+
+/* start media-icon */
+.media-icon{width: 100%; display: flex; justify-content: center; text-align: center; margin-top: 50px;}
+.media-icon .col{width: 15%;}
+.media-icon p{padding: 10px;}
+/* end media-icon */
+
+/* start product-service */
+.product-service{ width: 100%; margin-top: 60px;}
+.product-service .col{text-align: center;align-items: center;}
+.product-service p{margin-top: 15px; color: gray; line-height: 25px;  margin-bottom: 40px;}
+/* end product-service */
+
+/* start contact-icon */
+.contact-icon{width: 100%; display: flex; justify-content: center; 
+     margin: auto; text-align: center;}
+.contact-icon .cola{width: 33%; }
+.contact-icon .cola img{margin-bottom: 40px;}
+.contact-icon .cola h3{ margin-bottom: 20px; }
+.contact-icon .cola p{line-height: 25px; color: rgb(105, 105, 105); font-size: 14px;}
+.contact-icon .cola .lynnk a{ color: rgb(105, 105, 105); line-height: 25px;font-size: 14px;}
+/* end contact-icon */
+
+/* start up-nav */
+.up-nav{width: 100%; height: 50px; justify-content: center; align-items: center; text-align: center;  
+     background-color:rgba(244, 245, 241, 0.863);margin-bottom: 20px; 
+     border-bottom: 1px solid rgb(218, 214, 214); display: flex;} 
+.up-nav .col a{color: rgb(17, 16, 16); font-size:small; margin-top: 50px;}
+/* end up-nav */
+
+/* start nav-link4 */
+.nav-link4{width: 100%; justify-content: left; text-align: left; align-items: left; display: flex; margin-top: 20px;}
+.nav-link4 .col1 a{ margin-left: 20px;text-decoration: none; color: gray; font-size: small;}
+.nav-link4 .col2 a{ text-decoration: none; color: gray; font-size: small;}
+/* end nav-link4 */
+
+/* start heading */
+.heading{width: 100%; text-align: center; margin-top: 20px;}
+.heading .col{text-align: center;}
+.heading .col h2{margin-bottom: 20px; font-size: 30px;}
+.heading .col p{color: gray; line-height: 25px;}
+/* end heading */
+
+/* start slider-tv */
+.slider-tv{width: 100%; height: 600px; 
+     background-image: url('../img/TV-UHD-Category-Banner-Desktop.jpg'); 
+     background-position: center; background-size:contain; 
+     background-repeat: no-repeat; margin-top: 45px;}
+.slider-tv .cell p{padding-top: 20px; line-height: 25px; margin-bottom: 50px; margin-left: 100px;}
+.slider-tv .cell  .btn a{ padding-top: 40px;}
+.slider-tv .btn a{text-decoration: none; color: white; background-color: rgb(156, 22, 74); 
+     padding: 15px; border-radius: 10px; margin-left: 100px;}
+.slider-tv h2{margin-left: 100px; padding-top: 200px; font-size: 30px;}
+/* end slider-tv */
+
+/* start electronics */
+.electronics{width: 100%; height: 450px; display: flex; top: ; 
+     justify-content:center; margin: auto; margin-top: 50px; }
+.electronics .col img{width: 180px; padding-top: 40px; padding-bottom: 40px; }
+.electronics .col{width: 18%; border: 1px solid lightgray;
+   border-radius: 20px; margin: 15px; text-align: center; padding: px; }
+.electronics .col a{text-decoration: none; color: black; font-size:small; }
+.electronics .col .btn{margin-top: 40px;}
+/* end electronics */
+
+/* start electronics2 */
+.electronics2{width: 100%; height: 450px; display: flex;  
+     justify-content:center; margin: auto; margin-top: 30px; }
+.electronics2 .box img{width: 180px; padding-top: 40px; padding-bottom: 40px; }
+.electronics2 .box{width: 18%; border: 1px solid lightgray;
+   border-radius: 20px; margin: 15px; text-align: center; }
+.electronics2 .box a{text-decoration: none; color: black; font-size:small;}
+.electronics2 .box .btn{margin-top: 40px;}
+/* end electronics2 */
+
+/* start retailers */
+.retailers{width: 100%;margin-top: 50px;}
+.retailers .text{text-align: center;}
+.retailers .icon{width: 85%; display: flex; justify-content: space-evenly; margin: auto;
+      text-align: center;margin-top: 40px;}
+.retailers .icon .linc {width: 13%;}
+.retailers .icon .linc img{width: 80%; margin-bottom: 18px;}
+.retailers .icon .linc a{margin: 12px;padding: 10px; color: white; text-decoration: none; 
+     background-color: rgb(119, 17, 39); border-radius: 3px;}
+/* end retailers */
+
+/* start oled-thin */
+.oled-thinq{width: 100%;height: 680px; background-image: url('../img/africa-tvaudiovideo-pdp-1-d.jpg'); 
+     background-position: center; background-size: cover; background-repeat: no-repeat;margin-top: 80px;}
+.oled-thinq .group{padding-top: 250px; margin-bottom: 20px; margin-left: 695px;}
+.oled-thinq .botin a{margin-left:695px ; padding: 15px; background-color: maroon; 
+     color: white; text-decoration: none; border-radius: 5px;}
+/* end oled-thin */
+
+/* start nwe-tv */
+.new-tv{width: 100%; height: 500px; background-image: url('../img/africa-tvaudiovideo-pdp-2-d.jpg');
+      background-position: center; background-repeat: no-repeat; background-size: cover;}
+.new-tv .room h1{padding-top:180px; margin-left: 800px; margin-bottom: 35px; color: white;}
+.new-tv .botn a{margin-left:800px ; padding: 15px; background-color: maroon; 
+     color: white; text-decoration: none; border-radius: 5px;}
+/* end nwe-tv */
+
+/* start home-tech */
+.home-tech{width: 100%; height: 500px; background-image: url('../img/africa-tvaudiovideo-pdp-3-d.jpg'); 
+     background-position: center; background-repeat: no-repeat; background-size: cover;}
+.home-tech .improve h1{margin-left: 100px; padding-top: 200px; margin-bottom: 35px; color: white;}
+.home-tech .lnk a{margin-left:100px ; padding: 15px; background-color: maroon; 
+     color: white; text-decoration: none; border-radius: 5px;}
+/* end home-tech */
+
+/* start speakers */
+.speakers{width: 95%; display: flex; margin: auto; justify-content: center; margin-top: 30px;}
+.speakers .left{width: 57%; height: 700px; }
+.speakers .left .top{width: 100%; height: 340px; background-image: url('../img/africa-tvaudiovideo-block-1-d.jpg'); 
+     background-repeat: no-repeat ; background-position: center; background-size: cover;  margin-bottom: 20px;}
+.speakers .left h3 {margin-left: 30px; padding-top: 30px; color: white;}
+
+.speakers .left .botom{width: 100%; height: 340px; background-image: url('../img/africa-tvaudiovideo-block-2-d.jpg'); 
+          background-repeat: no-repeat ; background-position: center; background-size: cover;}
+
+.speakers .right{width: 40%;padding-left: 20px;}
+.speakers .right .col{width: 100%; height: 700px ;  background-image: url('../img/africa-tvaudiovideo-block-3-d.jpg'); 
+     background-repeat:no-repeat ; background-position: center; background-size: cover;}
+.speakers .right h3{text-align: center; padding-top: 50px; color: white;}
+.speakers .right p{text-align: center; padding-top: 10px; color: white;}
+/* end speakers */
+
+/* start service-support */
+.service-support{width: 100%;margin-top: 60px; text-align: center ;}
+.service-support p{ margin-top: 10px; line-height: 25px;}
+/* end service-support */
+
+
+/* start home-appliances */
+.home-appliances{width: 100%; text-align: center; margin-top: 30px;}
+.home-appliances h1{margin-top: 20px;}
+.home-appliances p{margin: 20px; line-height: 25px;}
+/* end home-appliances */
+
+
+/* start home-appliances */ 
+.slider-appliances{width: 100%; height: 500PX; 
+     background-image: url('../img/africa-homeappliances-hero-1-d.jpg'); 
+     background-repeat: no-repeat; background-size: cover;}
+.slider-appliances .container {margin-left: 750px; padding-top: 130px; 
+     color: white; }
+.slider-appliances .container p{margin-top: 20px; line-height: 25px; margin-bottom: 40px;} 
+     
+.slider-appliances .container .btn-link a{padding: 15px; background-color: maroon ; 
+     color: white; text-decoration: none; border-radius: 5px;}
+ /* end home-appliances */
+
+ /* start home-appliance2 */ 
+ .home-appliance2{width: 100%; }
+ .home-appliance2 .row1{width: 100%; text-align: center; margin: auto; margin-top: 60px;} 
+ .home-appliance2 .row2{width: 85%; height: 400px; display: flex; margin: auto;
+     text-align: center; justify-content:space-evenly; margin-top: 40px;}
+ .home-appliance2 .row2 .cage{width: 22%;border: 1px solid lightgray; border-radius: 10px; }
+ .home-appliance2 .row2 .cage img{width: 190px; margin-top: 40px;}
+ .home-appliance2 .row2 .click1{margin-top: 40px; }
+ .home-appliance2 .row2 .click2{margin-top: 30px; }
+ .home-appliance2 .row2 .click1 a{margin-top: 40px; text-decoration: none; color: gray;}
+ .home-appliance2 .row2 .click2 a{ text-decoration: none; color: gray; margin-top: 40px;}
+  /* end home-appliance2 */ 
+
+/* start retailers2 */
+.retailers2{width: 100%;margin-top: 50px;}
+.retailers2 .text2{text-align: center;}
+.retailers2 .icon2{width: 85%; display: flex; justify-content: space-evenly; margin: auto;
+      text-align: center;margin-top: 40px;}
+.retailers2 .icon2 .linc2 {width: 13%;}
+.retailers2 .icon2 .linc2 img{width: 80%; margin-bottom: 18px;}
+.retailers2 .icon2 .linc2 a{margin: 12px;padding: 10px; color: white; text-decoration: none; 
+     background-color: rgb(119, 17, 39); border-radius: 3px;}
+/* end retailers2 */
+
+/* start motion-drive */
+.motion-drive{width: 100%; height: 700px; 
+     background-image: url('../img/africa-homeappliances-supercategory-5a.jpg');
+      background-position:center ; background-repeat: no-repeat;background-size: cover; 
+      margin-top: 80px;}
+.motion-drive .bag{padding-top: 200px; margin-left: 700px; color: white;}
+.motion-drive p{line-height: 25px; margin-bottom: 40px; margin-top: 20px;}
+
+.motion-drive .lincc a{margin-left:700px; padding: 15px; text-decoration: none; 
+     background-color: maroon; color: white; border-radius: 5px;}     
+/*end motion-drive */
+
+/* start kitchen */
+.kitchen{width: 100%; height: 700px;
+      background-image: url('../img/africa-homeappliances-supercategory-6b.jpg');
+      background-repeat: no-repeat; background-position: center; background-size: cover;}
+.kitchen .holder h1{padding-top: 350px; margin-left: 800px; color: white; margin-bottom: 40px;}
+.kitchen .holder a{margin-left: 800px; padding: 15px; color: white; 
+     background-color: maroon; text-decoration: none; border-radius: 5px;}
+
+/* start futa */
+.futa{width: 100%; background-color: rgb(248, 248, 248); margin-top: 40px;}
+.futa .sec1 p{width: 94%; margin: auto; font-size: 12px; line-height: 20px; color: gray; padding-top: 30px;}
+.futa .sec2{width: 94%; display: flex; justify-content: space-between;margin: auto;padding-top:  50px;padding-bottom: 40px;  }
+.futa .sec2 .right-side img{margin: 2px; }
+.futa .sec2 .left-side a{margin: 5px; text-decoration: none; color:black; font-size: 14px;}
+.futa .sec3{width: 94%; display: flex; justify-content:space-between; margin: auto;padding-bottom: 80px;}
+.futa .sec3 .lynnkk2 h3{margin-bottom: 10px; text-decoration: none; font-size: 16px; color: black;}
+.futa .sec3 .lynnkk2 a{line-height: 20px; text-decoration: none; color: grey; font-size: 11px;}
+.futa .sec3 .lynnkk2 a h4{color: rgb(26, 25, 25); font-size: small; }
+/* end futa */
+
+/* start futa2 */
+.futa2{width: 100%;height: 120px;  background-color: rgb(39, 39, 39);}
+.futa2 .linkc{width: 100%; padding-top: 20px; margin-left: 20px;}
+.futa2 .linkc a{padding: 15px; color: white; text-decoration: none; font-size: 13px;}
+.futa2 p{margin-left: 35px; margin-top: 10px; color: rgb(161, 161, 161); margin-bottom: 10px; font-size: 12px;}
+.futa2 .linc a{margin-left: 35px; font-size: 12px;  color: rgb(161, 161, 161);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+     
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {      
+     .nav .logo img{width: 70px;} 
+     .nav .nav-links a{font-size: 10px;} 
+     .slider{height: 500px; background-size:cover; background-position:left;}
+     .slider .btn{padding-top: 370px; margin-left: 100px; }
+     .home-section1{display: block;}
+     .home-section1 .col{width: 80%; margin: auto; margin-top: 50px;}
+     .home-section1 
+     .home-section2 .col img{width: 100%;}
+     .home-section2 h2{font-size: 13px;}
+     
+}
+
+@media (max-width: 425px) {    
+}
+
+@media (max-width: 320px) {    
+}
+
+
+
+
+
+
